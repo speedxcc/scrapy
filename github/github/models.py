@@ -13,9 +13,9 @@ class Repository(Base):
 	name = Column(String(64))
 #	update_time = Column(String(64))
 	update_time = Column(DateTime)
-	commits = Column(String(64))
-	branches = Column(String(64))
-	releases = Column(String(64))
+	commits = Column(Integer)
+	branches = Column(Integer)
+	releases = Column(Integer)
 
 if __name__== '__main__':
 	Base.metadata.create_all(engine)

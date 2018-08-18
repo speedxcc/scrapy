@@ -4,7 +4,7 @@ from github.items import GithubItem
 
 class ShiyanlouSpider(scrapy.Spider):
     name = 'shiyanlou'
-    allowed_domains = ['']
+    allowed_domains = ['github.com']
  #   start_urls = ['https://github.com/shiyanlou?page=1&tab=repositories']
     
     @property 
