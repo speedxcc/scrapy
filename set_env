@@ -1,0 +1,5 @@
+sudo pip install mysql mysqlclient sqlalchemy scrapy PyMysql
+sudo pip3 install mysql mysqlclient sqlalchemy scrapy PyMysql
+sudo apt-get install libmysqlclient-dev
+sudo service mysql start
+mysql -uroot
